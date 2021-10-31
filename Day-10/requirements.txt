@@ -1,0 +1,28 @@
+get an array of cards from 1 to 11, with three 10s - your deck
+
+
+use random.choice to get two random cards for each of the comp and user.
+    -create a deal_card function.
+
+check cards
+     - check for one side blackjack
+     -check for other side blackjack
+     - check for both sides blackjack
+
+calculate scores based on cards use the sum(array) function
+    -if 11 is drawn, count it as a 1 if total is more than 21
+
+-Reveal computers card to user
+    array[0]
+
+End game if user score >21 or if user has a blackjack (11 + 10)
+
+Ask user if they want another card
+
+Computer should draw a card if their score is not over 16
+
+Compare scores to see if win,loss, or draw (21 each)
+
+print out final hands at the end of the game
+
+After game ends, ask user if they want to play again - all one recursive function.
