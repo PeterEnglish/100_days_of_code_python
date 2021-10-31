@@ -34,7 +34,6 @@ while not end_of_game:
         #print(f"Current position: {position}\n Current letter: {letter}\n Guessed letter: {guess}")
         if letter == guess:
             display[position] = letter
-        print(display)
 
     #Check if user is wrong.
     if guess not in chosen_word:
