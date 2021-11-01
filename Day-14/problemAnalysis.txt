@@ -1,0 +1,13 @@
+We will have an object containing all the data  for the problem
+These will have keys and values
+We will remove two key-value pair at random from the object
+We will then use these in the game to compare.
+We will then let key-value 1 = key-value 2
+And pop another key-value from the object, and key-value 2 will be = that.
+We will do this while the array is not empty.
+If the array is empty, the maximum score has been reached, and this is displayed
+There will be a global score variable which will be modified.
+Compare the two follower scores to see who is followed by more people.
+
+
+
