@@ -50,6 +50,7 @@ def play_game():
     get_num_lives()
     compare_guesses(number)    
     ask_to_play_again()
+   
 
 
 play_game()
